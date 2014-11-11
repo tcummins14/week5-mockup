@@ -1,0 +1,86 @@
+* {margin: .2rem;
+    padding: 0;}
+
+body {
+    font-family: "Trebuchet MS", helvetica, sans-serif;
+    text-transform: uppercase;
+}  
+a {
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+ul {
+    list-style: none;
+}
+
+/*-- Title --*/
+.green {
+    background-color: hsla(74, 69%, 61%, 1);
+    height: 6rem;
+    padding: 1rem .5em;
+}
+h1, h2, h3 { 
+    font-weight: normal;
+}
+
+/*-- Top nav --*/
+.top li {
+    display: inline-block;
+    padding-left: 2em;
+}
+
+/*-- side nave--*/
+.container {
+    float: left;
+    min-width: 20%;
+    height: 20rem; 
+    margin: 0;
+    margin-right: .2rem;
+}
+.cheese { 
+    min-height: 60%;
+    background-color: hsla(179, 68%, 61%, 1);
+    padding: 3rem 2rem;
+    margin-bottom: .5rem;
+}
+.cheese a { 
+    color: hsla(360, 100%, 100%, 1);
+    line-height: 200%;
+}
+.blue {
+    background-color: hsla(195, 68%, 61%, 1);
+    min-height: 40%;
+}
+
+/*-- main section --*/
+.main {
+    float: left;
+    text-align: left;
+    height: 20rem;
+    width: 75%;
+    margin: 0;
+}
+section { 
+    min-height: 90%;
+}
+h2 {
+    background-color: hsla(56, 68%, 61%, 1);
+    color: white;
+    padding: 1rem 0rem 1rem 3rem;
+    max-width: 100%;
+    margin: 0;
+}
+p {
+    padding: 3rem;
+    font-size: 80%;
+    text-transform: none;
+}
+footer {
+    background-color: gray;
+    text-align: right;
+    min-height: 10%;
+    padding: 0rem 2rem;
+    max-width: 100%;
+}
